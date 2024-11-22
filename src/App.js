@@ -6,7 +6,7 @@ import guarchuri from "./Assets/Images/GUARCHURI.webp"
 import guarkorma from "./Assets/Images/GUARKORMA.webp"
 import guargumpowder from "./Assets/Images/GUARGUMPOWDER.webp"
 import guarsplit from "./Assets/Images/GUARSPLIT.webp"
-import sunleaf from "./Assets/Images/Sunleaf.webp"
+import sunleaf from "./Assets/Images/INTERNATIONAL LLP_page-0001.jpg"
 import { Routes, Router, Route, Link } from 'react-router-dom';
 import Home from "./Home";
 import AboutUs from "./AboutUs";
@@ -46,12 +46,6 @@ function App() {
       <footer className="footer-section">
         <div className="footer-container">
           <h3>Sunleaf International LLP</h3>
-          <div className="footer-links">
-            <a href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#contact">Contact Us</a>
-            <a href="#industries">Industries we Serve</a>
-          </div>
           <p>&copy; 2023 Sunleaf International LLP</p>
           <div className="footer-details">
             <p>Naman, 15/20 Bhojrajpara, Vrundavan Nagar, Gondal - 360311</p>
