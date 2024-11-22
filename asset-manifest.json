@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sunleaf/static/css/main.3318f71a.css",
-    "main.js": "/sunleaf/static/js/main.3117619c.js",
+    "main.js": "/sunleaf/static/js/main.1d3c94a0.js",
     "static/media/rice.webp": "/sunleaf/static/media/rice.3cc07b5c17742b49e0e9.webp",
     "static/media/Image_of_Guar_Gum_products_contributing_to_a_pos.webp": "/sunleaf/static/media/Image_of_Guar_Gum_products_contributing_to_a_pos.7612fc2728551406ca3b.webp",
     "static/media/Image_showcasing_sourcing_of_raw_materials_emph (1).webp": "/sunleaf/static/media/Image_showcasing_sourcing_of_raw_materials_emph (1).d5274ad3ff36c126791b.webp",
@@ -18,10 +18,10 @@
     "static/media/GUARSPLIT.webp": "/sunleaf/static/media/GUARSPLIT.d2f5a3dbcefc007505f5.webp",
     "index.html": "/sunleaf/index.html",
     "main.3318f71a.css.map": "/sunleaf/static/css/main.3318f71a.css.map",
-    "main.3117619c.js.map": "/sunleaf/static/js/main.3117619c.js.map"
+    "main.1d3c94a0.js.map": "/sunleaf/static/js/main.1d3c94a0.js.map"
   },
   "entrypoints": [
     "static/css/main.3318f71a.css",
-    "static/js/main.3117619c.js"
+    "static/js/main.1d3c94a0.js"
   ]
 }
