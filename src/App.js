@@ -30,7 +30,7 @@ function App() {
             <Nav.Link><Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/about-us">About Us</Link></Nav.Link>
             <Nav.Link><Link to="/">Contact Us</Link></Nav.Link>
-            <Nav.Link><Link to="/industries">InDustries We Serve</Link></Nav.Link>
+            <Nav.Link><Link to="/industries">Industries We Serve</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
         
