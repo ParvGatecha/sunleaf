@@ -12,8 +12,8 @@ import { Routes, Router, Route, Link } from 'react-router-dom';
 function AboutUs() {
   return (
     <div className="main-container container d-flex align-items-center justify-content-center" data-aos='fade-in'>
-      <h1 className="fw-bold">About Us</h1>
-      <p className="fs-5">Welcome to our company, a leading manufacturer and exporter of Guar Gum! With a commitment to excellence and a dedication to providing high-quality products, we have established ourselves as a trusted name in the industry.</p>
+      <h1 className="fw-bold text-center">About Us</h1>
+      <p className="fs-5 text-center">Welcome to our company, a leading manufacturer and exporter of Guar Gum! With a commitment to excellence and a dedication to providing high-quality products, we have established ourselves as a trusted name in the industry.</p>
       <div className="hero-section d-flex flex-column flex-md-row justify-content-around">
         <div className="content text-center" data-aos="slide-right">
           <h1>

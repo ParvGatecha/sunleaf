@@ -27,10 +27,10 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><Link to="/">Home</Link></Nav.Link>
-            <Nav.Link><Link to="/about-us">About Us</Link></Nav.Link>
-            <Nav.Link><Link to="/">Contact Us</Link></Nav.Link>
-            <Nav.Link><Link to="/industries">Industries We Serve</Link></Nav.Link>
+            <Nav.Link className="text-center"><Link to="/">Home</Link></Nav.Link>
+            <Nav.Link className="text-center"><Link to="/about-us">About Us</Link></Nav.Link>
+            <Nav.Link className="text-center"><Link to="/">Contact Us</Link></Nav.Link>
+            <Nav.Link className="text-center"><Link to="/industries">Industries We Serve</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
         
