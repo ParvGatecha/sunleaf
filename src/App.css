@@ -333,3 +333,8 @@ body {
 #navbar{
   max-width: none !important;
 }
+
+#logo{
+  width: 100px;
+  height:100px;
+}

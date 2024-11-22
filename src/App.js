@@ -21,7 +21,7 @@ function App() {
     <div className="main-container" data-aos='fade-in'>
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container id="navbar">
-        <Navbar.Brand><Link to="/"><img src={sunleaf} alt='sunleaf'></img></Link></Navbar.Brand>
+        <Navbar.Brand><Link to="/"><img src={sunleaf} alt='sunleaf' id="logo"></img></Link></Navbar.Brand>
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

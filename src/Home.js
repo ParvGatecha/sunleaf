@@ -24,7 +24,7 @@ function Home() {
             catering to diverse industries and applications.
           </p>
           <div className="buttons overflow-visible">
-            <button className="contact-btn m-2">Contact Us</button>
+            <button className="contact-btn m-2"><a href="#contactus" className="text-white">Contact Us</a></button>
             <button className="know-more-btn m-2">Know More</button>
           </div>
         </div>
@@ -59,14 +59,14 @@ function Home() {
         </div>
         
       </div>
-      <section className="products-section container">
+      <section className="products-section container overflow-visible">
         <h2 data-aos="fade-up">Our Products</h2>
         <p data-aos="fade-up">
           We provide a wide selection of Guar Gum products crafted to meet global standards. 
           Our range includes Guar Gum powder, splits, and tailored formulations for diverse 
           industries like food, pharmaceuticals, cosmetics, textiles, and more.
         </p>
-        <div className="products-grid">
+        <div className="products-grid overflow-visible">
           <div className="product-card" data-aos="fade-up">
             <img src={guarchuri} alt="Guar Churi" />
             <h3>Guar Churi</h3>
@@ -88,7 +88,7 @@ function Home() {
       </section>
 
 
-      <section className="contact-section container" data-aos='fade-in'>
+      <section className="contact-section container" id="contactus" data-aos='fade-in'>
         
         <h2>Contact Us</h2>
         <div className="d-flex flex-column flex-md-row gap-5 overflow-visible">
