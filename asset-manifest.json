@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sunleaf/static/css/main.3318f71a.css",
+    "main.js": "/sunleaf/static/js/main.3117619c.js",
+    "static/media/rice.webp": "/sunleaf/static/media/rice.3cc07b5c17742b49e0e9.webp",
+    "static/media/Image_of_Guar_Gum_products_contributing_to_a_pos.webp": "/sunleaf/static/media/Image_of_Guar_Gum_products_contributing_to_a_pos.7612fc2728551406ca3b.webp",
+    "static/media/Image_showcasing_sourcing_of_raw_materials_emph (1).webp": "/sunleaf/static/media/Image_showcasing_sourcing_of_raw_materials_emph (1).d5274ad3ff36c126791b.webp",
+    "static/media/Positive_customer_testimonials_displayed_on_a_sc.webp": "/sunleaf/static/media/Positive_customer_testimonials_displayed_on_a_sc.d319f1a0d4aa491b2096.webp",
+    "static/media/Design_an_infographic_showcasing_the_diverse_app.webp": "/sunleaf/static/media/Design_an_infographic_showcasing_the_diverse_app.470b7f39e817509fcb23.webp",
+    "static/media/Handshake_image_representing_partnership_and_col.webp": "/sunleaf/static/media/Handshake_image_representing_partnership_and_col.d5bf4ce7a2c0fe5ac9a1.webp",
+    "static/media/sumleaf_Company_employees_planting_trees_or_part.webp": "/sunleaf/static/media/sumleaf_Company_employees_planting_trees_or_part.6361365332e7476b5e1e.webp",
+    "static/media/overview.webp": "/sunleaf/static/media/overview.77d8bfc3ab96ac59d6f3.webp",
+    "static/media/toothbrush.png": "/sunleaf/static/media/toothbrush.8c20052233966b741e12.png",
+    "static/media/GUARKORMA.webp": "/sunleaf/static/media/GUARKORMA.1d58a155631ccda4e97c.webp",
+    "static/media/GUARCHURI.webp": "/sunleaf/static/media/GUARCHURI.2bf58f6e5de6af5da9c1.webp",
+    "static/media/GUARGUMPOWDER.webp": "/sunleaf/static/media/GUARGUMPOWDER.fdc3ffaafff4afb2ee91.webp",
+    "static/media/Sunleaf.webp": "/sunleaf/static/media/Sunleaf.539576dbbd191379bdc1.webp",
+    "static/media/GUARSPLIT.webp": "/sunleaf/static/media/GUARSPLIT.d2f5a3dbcefc007505f5.webp",
+    "index.html": "/sunleaf/index.html",
+    "main.3318f71a.css.map": "/sunleaf/static/css/main.3318f71a.css.map",
+    "main.3117619c.js.map": "/sunleaf/static/js/main.3117619c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3318f71a.css",
+    "static/js/main.3117619c.js"
+  ]
+}
