@@ -6,7 +6,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Fab from '@mui/material/Fab';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +19,7 @@ root.render(
       <div>
         {/* Instagram Button (Left) */}
       <Fab
-        color="secondary"
+        color="primary"
         sx={{
           position: 'fixed',
           bottom: 20,
@@ -28,12 +28,12 @@ root.render(
           color: 'white',
           '&:hover': {
             backgroundColor: 'white', // Set background color to white on hover
-            color: '#d32f2f',         // Set icon color to primary (red) on hover
+            color: 'blue',         // Set icon color to primary (red) on hover
           },
         }}
-        onClick={() => openLink('https://www.instagram.com/sunleaf_international?igsh=djFyaHFsaWZoMTk1')}
+        onClick={() => (window.location.href = 'tel:+919106513214')}
       >
-        <InstagramIcon />
+        <PhoneIcon />
       </Fab>
 
       {/* WhatsApp Button (Right) */}
