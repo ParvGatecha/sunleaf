@@ -14,11 +14,19 @@ import Industries from "./Industries";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Fab from '@mui/material/Fab';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
+
+  const openLink = (url) => {
+    window.open(url, '_blank');
+  };
   return (
-    <div className="main-container" data-aos='fade-in'>
+    <div className="main-container position-relative" data-aos='fade-in'>
+      
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container id="navbar">
         <Navbar.Brand><Link to="/"><img src={sunleaf} alt='sunleaf' id="logo"></img></Link></Navbar.Brand>
@@ -53,9 +61,9 @@ function App() {
             <p>info@sunleaf.com</p>
           </div>
           <div className="social-icons">
-            <a href="#facebook">Facebook</a>
-            <a href="#linkedin">LinkedIn</a>
-            <a href="#instagram">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61565181540103&mibextid=LQQJ4d">Facebook</a>
+            <a href="https://www.linkedin.com/in/sunleaf-international-llp-bb2499326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+            <a href="https://www.instagram.com/sunleaf_international?igsh=djFyaHFsaWZoMTk1">Instagram</a>
           </div>
         </div>
       </footer>

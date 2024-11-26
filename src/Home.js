@@ -7,12 +7,18 @@ import guarkorma from "./Assets/Images/GUARKORMA.webp"
 import guargumpowder from "./Assets/Images/GUARGUMPOWDER.webp"
 import guarsplit from "./Assets/Images/GUARSPLIT.webp"
 import { Routes, Router, Route, Link } from 'react-router-dom';
+import Fab from '@mui/material/Fab';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import sunleaf from "./Assets/Images/Sunleaf.webp"
 
 function Home() {
   return (
+    
     <div className="main-container" data-aos='fade-in'>
+      
       <div className="hero-section min-vh-100 d-flex flex-column flex-md-row justify-content-around">
         <div className="content d-flex flex-column justify-content-center align-items-center" data-aos="slide-right">
           <h1>
