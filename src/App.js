@@ -1,12 +1,6 @@
 import React from "react";
 import "./App.css";
-import rice from "./Assets/Images/rice.webp"
-import overview from "./Assets/Images/overview.webp"
-import guarchuri from "./Assets/Images/GUARCHURI.webp"
-import guarkorma from "./Assets/Images/GUARKORMA.webp"
-import guargumpowder from "./Assets/Images/GUARGUMPOWDER.webp"
-import guarsplit from "./Assets/Images/GUARSPLIT.webp"
-import sunleaf from "./Assets/Images/INTERNATIONAL LLP_page-0001.jpg"
+import sunleaf from "./Assets/Images/logo.png"
 import { Routes, Router, Route, Link } from 'react-router-dom';
 import Home from "./Home";
 import AboutUs from "./AboutUs";
@@ -14,10 +8,6 @@ import Industries from "./Industries";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Fab from '@mui/material/Fab';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
 
@@ -29,7 +19,10 @@ function App() {
       
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container id="navbar">
-        <Navbar.Brand><Link to="/"><img src={sunleaf} alt='sunleaf' id="logo"></img></Link></Navbar.Brand>
+        <Navbar.Brand><Link to="/">
+        {/* <img src={sunleaf} alt='sunleaf' id="logo"></img> */}
+        <div id="logo"></div>
+        </Link></Navbar.Brand>
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

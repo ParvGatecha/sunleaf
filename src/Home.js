@@ -20,9 +20,9 @@ function Home() {
     <div className="main-container" data-aos='fade-in'>
       
       <div className="hero-section min-vh-100 d-flex flex-column flex-md-row justify-content-around">
-        <div className="content d-flex flex-column justify-content-center align-items-center" data-aos="slide-right">
+        <div className="content text-center" data-aos="slide-right">
           <h1>
-            Welcome to <span className="highlight">Sunleaf International LLP</span>,
+            Welcome to <br/><span className="highlight">Sunleaf International LLP</span>,
           </h1>
           <p>
             A leading exporter of high-quality Guar Gum products. We specialize
