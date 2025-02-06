@@ -20,44 +20,45 @@ root.render(
     <Router>
       <div>
         {/* Instagram Button (Left) */}
-      <Fab
-        color="primary"
-        sx={{
-          position: 'fixed',
-          bottom: 20,
-          left: 20,
-          zIndex: 1000,
-          color: 'white',
-          '&:hover': {
-            backgroundColor: 'white', // Set background color to white on hover
-            color: 'blue',         // Set icon color to primary (red) on hover
-          },
-        }}
-        onClick={() => (window.location.href = 'tel:+919106513214')}
-      >
-        <PhoneIcon />
-      </Fab>
+        <Fab
+          color="primary"
+          sx={{
+            position: "fixed",
+            bottom: 20,
+            left: 20,
+            zIndex: 1000,
+            color: "white",
+            "&:hover": {
+              backgroundColor: "white", // Set background color to white on hover
+              color: "blue", // Set icon color to primary (red) on hover
+            },
+          }}
+          onClick={() => (window.location.href = "tel:+919106513214")}
+        >
+          <PhoneIcon />
+        </Fab>
 
-      {/* WhatsApp Button (Right) */}
-      <Fab
-        sx={{
-          position: 'fixed',
-          bottom: 20,
-          right: 20,
-          zIndex: 1000,
-          backgroundColor: '#25D366', // Initial WhatsApp green color
-          color: 'white',             // Initial text/icon color
-          '&:hover': {
-            backgroundColor: 'white', // Set background color to white on hover
-            color: '#25D366',         // Set icon color to green on hover
-          },
-        }}
-        onClick={() => openLink('https://wa.me/message/2LBZPWLP2JTQI1')}
-      >
-        <WhatsAppIcon />
-      </Fab>
+        {/* WhatsApp Button (Right) */}
+        <Fab
+          sx={{
+            position: "fixed",
+            bottom: 20,
+            right: 20,
+            zIndex: 1000,
+            backgroundColor: "#25D366", // Initial WhatsApp green color
+            color: "white", // Initial text/icon color
+            "&:hover": {
+              backgroundColor: "white", // Set background color to white on hover
+              color: "#25D366", // Set icon color to green on hover
+            },
+          }}
+          onClick={() => openLink("https://wa.me/message/2LBZPWLP2JTQI1")}
+        >
+          <WhatsAppIcon />
+        </Fab>
         <App />
-        <Analytics/>
+        <Analytics />
+        <SpeedInsights />
       </div>
     </Router>
   </React.StrictMode>
