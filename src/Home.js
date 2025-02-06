@@ -65,7 +65,7 @@ function Home() {
         </div>
         
       </div>
-      <section className="products-section container overflow-visible">
+      <section className="products-section container">
         <h2 data-aos="fade-up">Our Products</h2>
         <p data-aos="fade-up">
           We provide a wide selection of Guar Gum products crafted to meet global standards. 
