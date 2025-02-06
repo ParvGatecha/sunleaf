@@ -57,6 +57,7 @@ root.render(
         <WhatsAppIcon />
       </Fab>
         <App />
+        <Analytics/>
       </div>
     </Router>
   </React.StrictMode>
